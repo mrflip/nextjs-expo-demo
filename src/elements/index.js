@@ -11,6 +11,9 @@ export {
 } from "react-native"
 
 export {
+  Button,
+  Card,
+  Checkbox,
   RadioButton,
   Searchbar,
   Snackbar,
@@ -24,3 +27,7 @@ export {
   Subheading,
   Paragraph,
 } from "react-native-paper"
+
+export * from "./Buttons"
+export * from "./Container"
+export * from "./WebLink"
