@@ -1,10 +1,12 @@
 // @generated: @expo/next-adapter@2.1.5
-import { StyleSheet, Text, View } from 'react-native'
+import React                            from 'react'
+import { StyleSheet, Text, View }       from 'react-native'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
+      <Text style={styles.text}>Welcome to Expo + Next.js</Text>
+      <Text>Would you like to buy a car?</Text>
     </View>
   )
 }
