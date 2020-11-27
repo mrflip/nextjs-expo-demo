@@ -11,15 +11,38 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "~1.12.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
     "expo": "^39.0.0",
+    "formik": "^2.2.5",
+    "lodash": "^4.17.20",
     "next": "latest",
+    "next-fonts": "1.5.1",
+    "next-images": "1.6.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
-    "react-native-web": "~0.13.7"
+    "react-native-gesture-handler": "1.9.0",
+    "react-native-formik": "^1.7.8",
+    "react-native-paper": "4.4.1",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-vector-icons": "7.1.0",
+    "react-native-web": "~0.13.7",
+    "@react-navigation/material-bottom-tabs": "^5.3.10",
+    "react-native-reanimated": "~1.13.0",
+    "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
-    "@expo/next-adapter": "2.1.5"
+    "@expo/next-adapter": "2.1.5",
+    "eslint": "7.14.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-react-native": "3.10.0"
   },
   "license": "MIT",
   "keywords": [],
