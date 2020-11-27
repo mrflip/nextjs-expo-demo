@@ -7,7 +7,7 @@ class Car {
   // }
 
   get pricing() {
-    return CarConfig[this.model]
+    return CarPricing[this.model]
   }
 
   get base() {
@@ -18,7 +18,7 @@ class Car {
     return this.pricing.tinting
   }
 
-  get totalPrice() {
+  get price() {
     return this.base + this.options
   }
 }
