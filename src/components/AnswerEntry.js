@@ -23,11 +23,18 @@ function slugify(str) {
   return str.replace(/\W+/g, "").toLowerCase()
 }
 
+function detachAsides(str) {
+  return str
+    .replace(/^\([^\)]+\)/, "")
+    .replace(/\([^\)]+\)$/, "")
+    .replace(/^The/i, "")
+}
+
 function answerStyling(guess, answers) {
   if (answers.some((answer) => slugify(answer) === slugify(guess))) {
     return styles.happyInput
   }
-  if (answers.some((answer) => slugify(answer.replace(/^\([^\)]+\)/g, '')) === slugify(guess))) {
+  if (answers.some((answer) => slugify(guess).includes(slugify(detachAsides(answer))))) {
     return styles.happyInput
   }
   if (guess.length === 0) {
