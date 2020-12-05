@@ -7,7 +7,7 @@ import { FullWidthOutlineButton, KeyboardAwareScrollView, Paragraph, StyleSheet,
 //
 import AnswerBox from "../components/AnswerBox"
 import AnswerEntry from "../components/AnswerEntry"
-import Questions from "../questions.json"
+import Questions from "../../data/questions.json"
 
 function randomIndex() {
   return _.random(0, Questions.length - 1)

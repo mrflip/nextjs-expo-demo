@@ -52,6 +52,5 @@ const styles = StyleSheet.create({
   },
   goodStart: {
     backgroundColor: "#eeeecc",
-    borderColor: "eeee44",
   },
 })
