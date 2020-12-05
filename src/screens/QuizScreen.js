@@ -13,7 +13,7 @@ function randomIndex() {
   return _.random(0, Questions.length - 1)
 }
 
-function HomeScreen({ navigation }) {
+function QuizScreen({ navigation }) {
   const [shown, toggleShown, setShown] = useToggler()
   const [idx, setIdx] = React.useState(randomIndex())
   const [guess, setGuess] = React.useState("")
@@ -54,7 +54,7 @@ function HomeScreen({ navigation }) {
   )
 }
 
-export default HomeScreen
+export default QuizScreen
 
 const styles = StyleSheet.create({
   questionIndexBox: {

@@ -31,7 +31,5 @@ export {
 } from "react-native-paper"
 
 export * from "./Buttons"
-export * from "./Container"
-export * from "./Form"
 export * from "./WebLink"
 export * from "react-native-keyboard-aware-scroll-view"
