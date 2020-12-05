@@ -8,7 +8,7 @@ function AboutScreen() {
     <View style={Theme.s.container}>
       <Title>Citizenship Test: Next.js/Expo Demo App</Title>
       <Paragraph>By Flip Kromer</Paragraph>
-      <SimpleLinkButton title="Tookstock.com: Inventory and Purchasing" url="https://tookstock.com" />
+      <SimpleLinkButton title="Tookstock: Business Simplicity" url="https://tookstock.com" />
     </View>
   )
 }

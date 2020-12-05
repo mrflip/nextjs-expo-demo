@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Citizenship Quiz",
+    "slug": "citizenshipquiz",
+    "scheme": "citizenshipquiz",
+    "version": "0.0.10",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "description": "Simple starting point for a nextjs+expo app"
+  }
+}

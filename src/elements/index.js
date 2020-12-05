@@ -14,6 +14,7 @@ export {
   Button,
   Card,
   Checkbox,
+  HelperText,
   List,
   RadioButton,
   Searchbar,
