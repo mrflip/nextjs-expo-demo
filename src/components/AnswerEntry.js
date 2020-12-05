@@ -27,6 +27,9 @@ function answerStyling(guess, answers) {
   if (answers.some((answer) => slugify(answer) === slugify(guess))) {
     return styles.happyInput
   }
+  if (answers.some((answer) => slugify(answer.replace(/^\([^\)]+\)/g, '')) === slugify(guess))) {
+    return styles.happyInput
+  }
   if (guess.length === 0) {
     return {}
   }
