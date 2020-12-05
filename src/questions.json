@@ -6,7 +6,6 @@
     "question": "What is the form of government of the United States?",
     "answers": ["Republic", "Constitution-based federal republic", "Representative democracy"]
   },
-
   {
     "section": "American Government",
     "subsection": "Principles of American Government",
@@ -987,7 +986,7 @@
     "section": "American History",
     "subsection": "American History in the 1800s",
     "oidx": 99,
-    "question":"Name one leader of the women's rights movement in the 1800s.",
+    "question": "Name one leader of the women's rights movement in the 1800s.",
     "answers": [
       "Susan B. Anthony",
       "Elizabeth Cady Stanton",
