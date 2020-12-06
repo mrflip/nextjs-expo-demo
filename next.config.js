@@ -8,7 +8,7 @@ const withFonts = require("next-fonts")
 
 // environment varibales for local development
 const devCognito = {
-  IDP_DOMAIN: "yo.tookstock.com",
+  IDP_DOMAIN: "yo-deva.tookstock.com",
   USER_POOL_ID: "us-east-1_ec5pcl7MW",
   USER_POOL_CLIENT_ID: "49vqkss2nsgiggeid0qfvgtst1",
   REDIRECT_SIGN_IN: "http://localhost:3000/token",
