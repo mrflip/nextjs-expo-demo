@@ -52,7 +52,7 @@ const colors = {
 const icons = {
   about: "information",
   home: "home",
-  quiz: "question",
+  quiz: "comment-question",
   // home:                 "home",
 }
 

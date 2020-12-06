@@ -41,7 +41,7 @@ function QuizScreen({ navigation }) {
 
       <FullWidthOutlineButton onPress={toggleShown} title={shown ? "Hide Answers" : "Show Answers"} />
 
-      {shown && <AnswerBox answers={answers} />}
+      {shown && <AnswerList answers={answers} />}
 
       <FullWidthOutlineButton onPress={nextQuestion} title="Next Question" />
 
