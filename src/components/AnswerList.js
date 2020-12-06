@@ -2,7 +2,7 @@ import React /**/ from "react"
 //
 import { Paragraph, View, StyleSheet } from "../elements"
 
-export default function AnswerBox({ answers }) {
+export default function AnswerList({ answers }) {
   return (
     <View style={styles.answersContainer}>
       {answers.map((answer, idx) => (
