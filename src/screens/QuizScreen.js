@@ -5,7 +5,7 @@ import Theme from "../utils/Theme"
 import { useToggler } from "../utils/hooks"
 import { FullWidthOutlineButton, KeyboardAwareScrollView, Paragraph, StyleSheet, Title, View } from "../elements"
 //
-import AnswerBox from "../components/AnswerBox"
+import AnswerList from "../components/AnswerList"
 import AnswerEntry from "../components/AnswerEntry"
 import Questions from "../../data/questions.json"
 
